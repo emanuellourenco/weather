@@ -1,0 +1,106 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  padding-bottom: 5px;
+}
+
+div[class^="col"] {
+  padding-bottom: 5px;
+}
+
+.card {
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.app__row {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    173deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(26, 26, 119, 1) 48%,
+    rgba(24, 24, 193, 1) 100%
+  );
+}
+
+.app__card {
+  height: calc(100vh - 46px);
+  border: 0;
+  background-color: inherit;
+}
+
+.app__title {
+  color: #b3d7ff;
+  text-align: center;
+}
+
+svg.app__tile__icon {
+  font-size: 16px;
+  color: #17a2b8;
+}
+
+.weather-block__title {
+  text-align: center;
+  color: #2626ad;
+}
+
+.weather-block__subtitle {
+  text-align: center;
+}
+
+.text--blue {
+  color: #2626ad;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.middle {
+  margin-top: 35px;
+}
+
+.likes {
+  padding-left: 10px;
+}
+
+.underline {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+/* Set font color to white */
+.btn-warning,
+.btn-warning:hover {
+  color: #fff;
+}
+
+img {
+  width: inherit;
+  height: auto;
+}
+
+.weather-block__info {
+  font-size: 12px;
+}
+
+.weather-block__card {
+  border-radius: 20px;
+  background-color: #b3d7ff;
+  box-shadow: 3px 3px 10px #000929;
+}
+
+.modal-content {
+  background-color: #b3d7ff;
+}
+
+.modal.show .modal-dialog {
+  transform: translate(-50%, -50%);
+  margin-top: 35vh;
+  margin-left: 50vw;
+}
