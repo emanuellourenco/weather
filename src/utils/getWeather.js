@@ -1,9 +1,11 @@
 import axios from "axios";
 
 export function getWeather(city) {
+  const token = process.env.REACT_APP_TOKEN;
+
   return axios
     .get(
-      `http://api.openweathermap.org/data/2.5/forecast?id=${city}&units=metric&APPID=b58080319ae781322bf26cc8a89ac424`
+      `http://api.openweathermap.org/data/2.5/forecast?id=${city}&units=metric&APPID=${token}`
     )
     .then((res) => {
       const weather = res.data.list;
